@@ -19,12 +19,12 @@ double areaSquare;
 float circumferenceCircle;
 
 cout << "Insert number of miles: ";
-cin >> miles;
-kilometers = miles * 1.60934;
-timeDistance = miles / 60;
-footballFields = miles * 1760 / 100;
-areaSquare = kilometers * kilometers;
-circumferenceCircle = 2 * M_PI * (kilometers / 2);
+cin >> miles;//get user input for miles
+kilometers = miles * 1.60934; //converting miles to kilometers
+timeDistance = miles / 60; //calculating time it takes to travel
+footballFields = miles * 1760 / 100; //calclulates number of football fields
+areaSquare = kilometers * kilometers; //calculates the area of a square using the distance as the sides
+circumferenceCircle = 2 * M_PI * (kilometers / 2); //finds the circumference of the circle with the data for kilometers
 
 cout << "Distance in kilometers: " << kilometers << endl;
 cout << "Time to cover the disatace at 60 miles per hour: " << timeDistance << endl;
